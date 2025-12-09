@@ -1,0 +1,68 @@
+/* zrob jeszce sylwester na filoetwoeo jak ebndize zrob ładneisjzy blur jaksi dodaj i emotki mzope narpwze jest sałbo widoczy napis gdy ejst sylwestr; i anmacje zrob ; i jezzce jak ejst 1 dzien do sylwetara to zrob jaksi inny napsi  */
+
+body {
+    margin: 0;
+    height:100vh;
+    display:flex;
+        justify-content:center;
+            align-items:center;
+            background-size:cover;
+        background-position:center;
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+#kontener {
+    width:420px;
+     height:620px;
+        background:rgba(255,255,255,0.22);
+            backdrop-filter:blur(16px);
+        border-radius:30px;
+        text-align:center;
+        padding-top:40px;
+}
+
+#miesiac_rok {
+    font-size:50px;
+        color:white;
+         text-shadow:3px 3px 8px black;
+}
+
+#dzien {
+     font-size:190px;
+            font-weight:bold;
+        margin:30px 0;
+    text-shadow:6px 6px 12px black;
+}
+
+#dzien_tygodnia {
+        font-size:46px;
+            color:white;
+            text-shadow:3px 3px 8px black;
+             margin-bottom:30px;
+}
+
+#odliczanie {
+    font-size:40px;
+        color:white;
+        text-shadow:3px 3px 8px black;
+}
+
+.czerwony {
+    color:#ff0000f0;
+        text-shadow:6px 6px 12px black;
+}
+
+    .zima      { background-image:url('tla/zima.jpg'); }
+        .wiosna    { background-image:url('tla/wiosna.jpg'); }
+            .lato      { background-image:url('tla/lato.jpg'); }
+             .jesien    { background-image:url('tla/jesien.webp'); }
+            .sylwester { 
+    background-image:url('tla/sylwek.png');
+    /* animation:miganie 6s infinite; porraw aniamcje bo neiedziaala */
+}
+
+/* @keyframes miganie {
+        0%   {opacity:1;}
+    50%  {opacity:0.7;}
+    100%{opacity:1;}
+} */
